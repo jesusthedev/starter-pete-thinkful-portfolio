@@ -16,6 +16,30 @@ h3 {
   text-align: center;
 }
 
+.group{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.new-group{
+  display: flex;
+  flex-direction: row;
+}
+.item{
+  flex:1;
+   align-items: center;
+   margin: 5px;
+   }
+
+.font-size{
+  font-size: 15px;
+}
+
+.new-font{
+  font-size: 18px;
+}
+
 /* Header */
 header {
   text-align: center;
